@@ -137,3 +137,10 @@ document.addEventListener("DOMContentLoaded", function () {
   const formStatusElement = document.getElementById("form-status");
   formStatusElement.textContent = "Sending...";
 });
+
+const menuToggle = document.getElementById('menu-toggle');
+const navbarList = document.getElementById('navbar-list');
+
+menuToggle.addEventListener('click', () => {
+  navbarList.classList.toggle('active');
+});
