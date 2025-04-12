@@ -1,0 +1,97 @@
+body.light-theme {
+    --jet: hsl(0, 0%, 90%);
+    --onyx: hsl(0, 0%, 85%);
+    --eerie-black-1: hsl(0, 0%, 95%);
+    --eerie-black-2: hsl(0, 0%, 90%);
+    --smoky-black: hsl(0, 0%, 100%);
+    --white-1: hsl(0, 0%, 0%);
+    --white-2: hsl(0, 0%, 10%);
+    --orange-yellow-crayola: hsl(45, 100%, 50%);
+    --vegas-gold: hsl(45, 54%, 50%);
+    --light-gray: hsl(0, 0%, 20%);
+    --light-gray-70: hsla(0, 0%, 20%, 0.7); 
+    --bittersweet-shimmer: hsl(0, 43%, 51%);
+
+    .service-item {
+      background: var(--white-2);
+      border: 1px solid var(--jet);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  
+    .service-item::before {
+      background: var(--eerie-black-1, #f5f5f5);
+    }
+  
+    .service-item-title {
+      color: var(--white-1);
+    }
+  
+    .service-item-text {
+      color: var(--light-gray);
+    }
+
+    .service-icon-box::before {
+      background: var(--eerie-black-1, #f5f5f5);
+    }
+  
+    .service-icon-box ion-icon {
+      color: var(--orange-yellow-crayola);
+    }
+  }
+  
+  body.light-theme .sidebar,
+  body.light-theme article {
+    background: var(--eerie-black-2);
+    border: 1px solid var(--jet);
+    color: var(--white-1);
+  }
+  
+  body.light-theme .navbar {
+    background: hsla(240, 1%, 85%, 0.75);
+    border: 1px solid var(--jet);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  body.light-theme .navbar-link {
+    color: var(--white-1);
+  }
+  
+  body.light-theme .navbar-link.active {
+    color: var(--orange-yellow-crayola);
+    
+  }
+
+  body.light-theme .navbar-link:hover {
+    color: var(--orange-yellow-crayola);
+  }
+
+body.light-theme .skills-list {
+      background: var(--eerie-black-1, #f5f5f5);
+      border: 1px solid var(--jet);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+body.light-theme .skills-list::before {
+      background: var(--eerie-black-1, #f5f5f5);
+    }
+  
+  body.light-theme .form-input {
+    border: 1px solid black;
+  }
+
+body.light-theme .form-input:focus {
+  outline: 2px solid var(--orange-yellow-crayola);
+}
+
+body.light-theme .icon-box{
+  background-color: black;
+  border: 1px solid var(--jet);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.project-img img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--jet);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
