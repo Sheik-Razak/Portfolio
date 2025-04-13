@@ -2,7 +2,8 @@
 Welcome to my personal portfolio! This project showcases my skills, experience, and projects in web development.
 
 🌟 Live Demo
-View Portfolio](https://sheikrazak-porfolio.vercel.app/index.html)`
+
+[View Portfolio](https://sheikrazak-porfolio.vercel.app/index.html)
 
 ## Overview
 This is a professional portfolio website for Sheik Razak, a web developer specializing in the MERN stack, data science, and automation. The portfolio showcases his skills, projects, education, and provides contact information.
