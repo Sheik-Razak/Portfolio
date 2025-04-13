@@ -93,5 +93,7 @@ body.light-theme .icon-box{
   border: 1px solid var(--jet);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
+.body.light-theme .social-item .social-link {
+background-color: white;
+}
 

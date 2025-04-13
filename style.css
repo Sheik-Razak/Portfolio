@@ -181,10 +181,11 @@ article {
   content: "";
   position: absolute;
   inset: 1px;
-  background: var(--eerie-black-1);
+  /* background: var(--eerie-black-1); */
   border-radius: inherit;
   z-index: -1;
 }
+
 
 .icon-box ion-icon { --ionicon-stroke-width: 35px; }
 
@@ -308,6 +309,9 @@ main {
   border-radius: 50%;
   overflow: hidden;
 }
+.avatar-box :hover {
+  transform: scale(1.15);
+}
 
 .info-content .name {
   color: var(--white-2);
@@ -359,16 +363,9 @@ main {
 
 .info_more-btn span { display: none; }
 
-.sidebar-info_more {
-  opacity: 0;
-  visibility: hidden;
-  transition: var(--transition-2);
-}
 
-.sidebar.active .sidebar-info_more {
-  opacity: 1;
-  visibility: visible;
-}
+
+
 
 .contacts-list {
   display: grid;
@@ -399,6 +396,7 @@ main {
   color: var(--white-2);
   font-size: var(--fs-7);
 }
+.contact-info:hover .contact-link { color: var(--orange-yellow-crayola); }
 
 .contact-info address { font-style: normal; }
 
@@ -1734,11 +1732,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .info_more-btn { display: none; }
 
-  .sidebar-info_more {
-    opacity: 1;
-    visibility: visible;
-  }
-
   .contacts-list { grid-template-columns: 1fr; }
 
   .contact-info :is(.contact-link) {
@@ -1810,7 +1803,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 }
 
 .social-item .social-link {
-  color: var(--light-gray-70);
+  /* color: var(--light-gray-70); */
   font-size: 20px;
   transition: transform 0.3s ease, color 0.3s ease;
   display: flex;
@@ -1818,29 +1811,29 @@ textarea.form-input::-webkit-resizer { display: none; }
   align-items: center;
   width: 36px;
   height: 36px;
-  border-radius: 50%;
+  border-radius: 50%; 
   /* background: var(--bg-gradient-jet); */
-  box-shadow: var(--shadow-1);
-  border: 1px solid var(--jet);
-}
+  /* box-shadow: var(--shadow-1); */
+  /* border: 1px solid var(--jet); */
+} 
 
 .social-item .social-link:hover {
   color: var(--orange-yellow-crayola);
   transform: translateY(-3px);
 }
 
-.social-item .social-link::before {
+/* .social-item .social-link::before {
   content: '';
   position: absolute;
   inset: 1px;
   background: var(--eerie-black-1);
   border-radius: inherit;
   z-index: -1;
-}
+} */
 
-.social-item .social-link ion-icon {
+/* .social-item .social-link ion-icon {
   --ionicon-stroke-width: 40px;
-}
+} */
 
 /* Theme toggle icons */
 .icon-sun {
@@ -1854,3 +1847,4 @@ body.light-theme .icon-moon {
 body.light-theme .icon-sun {
   display: inline-block;
 }
+
